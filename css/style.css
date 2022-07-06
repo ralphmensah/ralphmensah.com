@@ -44,6 +44,12 @@
     float: left;
 }
 
+@media only screen and (max-width: 600px) {
+    .profile-img {
+      display: none;
+    }
+  }
+
 @keyframes modalopen {
     from {
         opacity: 0;
