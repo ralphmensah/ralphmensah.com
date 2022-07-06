@@ -38,7 +38,6 @@
 .profile-img{
     height: 9rem; 
     width:9rem;
-    background-image: url(images/me.jpg);
     background-size: cover;
     background-position-x: -15px;
     border-radius: 50%;
