@@ -7,6 +7,7 @@ modalBtn.addEventListener('click', openModal);
 closeBtn.addEventListener('click', closeModal);
 
 window.addEventListener('click', outSideClick);
+
 // Function to open modal
 function openModal(){
 modal.style.display = 'block';
@@ -23,6 +24,8 @@ function outSideClick(e){
         modal.style.display = 'none';
     }
 }
+
+
 
 
 !(function (e) {

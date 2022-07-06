@@ -1,43 +1,61 @@
-.modal{
+.modal {
     margin-bottom: 0.5%;
     display: none;
-   position: fixed;
-   z-index: 1;
-   left: 0;
-   top: 0;
-   height: 100%;
-   width: 100%;
-   background-color: rgba(0, 0, 0, 0.5); 
-   animation: modalopen 1s;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: modalopen 1s;
 }
 
-.modal-content{
-background-color: white;
-margin: 5% auto;
-padding: 5px 5px;
-width: 45%;
-height: 85%;
-/* overflow: auto; */
-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17) ;
-border-radius: 10px;
+.modal-content {
+    background-color: white;
+    margin: 5% auto;
+    padding: 5px 5px;
+    width: 45%;
+    height: 85%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    border-radius: 10px;
 }
 
-.closeBtn{
-float: right;
-color: #ccc;
-font-size: 30px;
-margin-bottom: 5px;
+.closeBtn {
+    float: right;
+    color: #ccc;
+    font-size: 30px;
+    margin-bottom: 5px;
 }
-.closeBtn:hover,.closeBtn:focus{
-color: #000;
-text-decoration: none;
-cursor: pointer;
+
+.closeBtn:hover,
+.closeBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
+
+.profile-img{
+    height: 9rem; 
+    width:9rem;
+    background-image: url(images/me.jpg);
+    background-size: cover;
+    background-position-x: -15px;
+    border-radius: 50%;
+    float: left;
+}
+
 @keyframes modalopen {
-    from{opacity: 0;}
-    to{opacity: 1;}
-    
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
 }
-.color{
+
+.color {
     color: #ccc;
 }
